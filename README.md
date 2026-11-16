@@ -1,5 +1,12 @@
 # Terraform Cato Bulk Dynamic IP Allocation Rules Module
 
+> [!IMPORTANT]
+> **Early access (beta).** This module targets the Cato Terraform provider
+> `2.0.0-prerelease.1`, an **early-access / beta** release. A general-availability
+> (GA) release is planned shortly, following the current evaluation period.
+> Until GA ships, pin the exact prerelease version.
+
+
 This module allows you to bulk import Dynamic IP Allocation (DIA) rules and sections from a JSON configuration file, and define the order of those rules and sections within the Cato policy.
 
 ## Usage
@@ -353,13 +360,13 @@ These example outputs demonstrate various practical applications:
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.0 |
-| <a name="requirement_cato"></a> [cato](#requirement\_cato) | >= 1.3.1 |
+| <a name="requirement_cato"></a> [cato](#requirement\_cato) | >= 2.0.0-prerelease.1 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_cato"></a> [cato](#provider\_cato) | >= 1.3.1 |
+| <a name="provider_cato"></a> [cato](#provider\_cato) | >= 2.0.0-prerelease.1 |
 | <a name="provider_terraform"></a> [terraform](#provider\_terraform) | n/a |
 
 ## Modules
